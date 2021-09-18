@@ -1,0 +1,17 @@
+a = float(input("a = "))
+b = float(input("b = "))
+action = input("Ведіть дію:")
+
+if action == '+' :
+    print("c =", a+b)
+elif action == '-':
+    print("c =", a - b)
+elif action == '*':
+    print("c =", a * b)
+elif  b == 0:
+    if action == '/':
+        print("На нуль ділити не можна")
+elif action == '/':
+    print("c =", a / b)
+else:
+    print("Немає розв'язків")
