@@ -1,0 +1,13 @@
+a = int(input("Ведіть натуральне число:"))
+b = int(input("Ведіть натуральне число:"))
+
+total = 0
+
+if a <= 0:
+    print("Не є натуральним числом")
+elif b <= 0:
+    print("Не є натуральним числом")
+else:
+    for i in range(a, b+1):
+        total = total + i
+        print(total)
