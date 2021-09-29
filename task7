@@ -1,0 +1,5 @@
+def hello(name='Orest'):
+    a = input("Ведіть ім'я:")
+    print('Hello,  ', a or name, '!', sep='')
+
+hello()
