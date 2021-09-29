@@ -1,0 +1,10 @@
+print("Потрібно , щоб число 3 було між числом 1 і 2.")
+a = int(input("Ведіть число1:"))
+b = int(input("Ведіть число2:"))
+x = int(input("Ведіть число3:"))
+if a<x<b:
+    print(True)
+elif b<x<a:
+    print(True)
+else:
+    print(False)
