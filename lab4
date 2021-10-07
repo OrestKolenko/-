@@ -1,0 +1,13 @@
+alpha =  'ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯАБВГДЕЁЖЗИЙКЛМНОП' \
+         'РСТУФХЦЧШЩЪЫЬЭЮЯабвгґдеєжзиіїйклмнопрстуфхцчшщьюяabcdefghijklmnopqrstuvwxyz1234567890'
+replace = int(+1)
+message = input("Ведіть слово:")
+last = ''
+for a in message:
+        misce = alpha.find(a)
+        new_misce = misce + replace
+        if a in alpha:
+            last += alpha[new_misce]
+        else:
+            last += a
+print (last)
