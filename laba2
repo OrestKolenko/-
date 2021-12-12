@@ -1,0 +1,22 @@
+a = input("Дія a/b:")
+if a =="a":
+    text = input("d:")
+    n = text.split()
+    b = sorted(n)
+
+    z = 1
+    print(b[0])
+    while z < len(b):
+        if b[z] == b[z-1]:
+            z += 1
+            continue
+        print(b[z])
+        z += 1
+
+
+if a == "b":
+    a = input()
+    d = {}
+    for char in set(a):
+        d[char]=a.count(char)
+    print(d)
